@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid {
+    background-image: url(../img/horoscopebg.jpg);
+    color: black;
+    height: 1000px;
+}
+.container-fluid h1 {
+    font-size: 60px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* Part1  */
+
+.part1  h5 {
+    font-size: 26px;
+    font-weight: 500;
+    padding: 15px;
+}
+.part1 input {
+    margin: 5px;
+    width: 50%;
+}
+.part1 button {
+    margin: 20px;
+    padding: 10px;
+}
+.part1 h6 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+.part1 h6 > span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Part2 - JavaScript Input Form User */
+
+.part2 img {
+    height: 400px;
+    width: 70%;
+}
+.part2 h4 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 25px;
+}
+.part2 p {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1175px) {
+    .part1 h6 {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 5px;
+    }
+    .part1 h6 > span {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+@media (max-width: 1080px) {
+    .container-fluid {
+        color: black;
+        height: 1200px;
+    }
+    .part2 img {
+        height: 350px;
+        width: 70%;
+    }
+    .part2 h4 {
+        font-size: 30px;
+        font-weight: 500;
+        padding: 25px;
+    }
+    .part2 p {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .container-fluid {
+        color: black;
+        height: 1400px;
+    }
+    .part2 img {
+        height: 300px;
+        margin-top: 20px;
+        width: 50%;
+    }
+}
+@media (max-width: 575px) {
+    .container-fluid {
+        color: black;
+        height: 1900px;
+    }
+    .part2 img {
+        height: 350px;
+        margin-top: 20px;
+        width: 70%;
+    }
+}
+@media (max-width: 480px) {
+    .part2 img {
+        height: 260px;
+        margin-top: 20px;
+        width: 70%;
+    }
+}

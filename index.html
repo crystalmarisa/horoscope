@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,400i,500,600,600i,700,800,900" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/cpb4hrlND3sbUgNHHl-pjSLFqHbdWhrEO0kIDkkvCZuIDqBXAlKUi9YThSh4psZfylA=w300">
+    
+    <title>Mythical Horoscope</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <h1 class="text-center">Mythical Horoscope Facts</h1>
+      <!-- Part 1 -->
+      <div class="row part1 text-center">
+        <div class="col-sm-6">
+          <h5>Enter your Horoscope:</h5>
+          <!-- Input and Button -->
+          <input type="text" id="inputsign">
+          <br>
+          <button id="mybtn" class="btn btn-info" onclick="getSign()">Learn More</button>
+        </div>
+
+        <!-- List of Star Sign Names and Dates -->
+
+        <div class="col-sm-3">
+          <h6>Aquarius: <span>Jan 20 to Feb 18</span></h6>
+
+          <h6>Pisces: <span>Feb 19 to Mar 20</span></h6>
+
+          <h6>Aries: <span>Mar 21 to Apr 19</span></h6>
+
+          <h6>Taurus: <span>Apr 20 to May 20</span></h6>
+
+          <h6>Gemini: <span>May 21 to June 20</span></h6>
+
+          <h6>Cancer: <span>June 21 to July 22</span></h6>
+        </div>
+        <div class="col-sm-3">
+          <h6>Leo: <span>July 23 to Aug 22</span></h6>
+          
+          <h6>Virgo: <span>Aug 23 to Sept 22</span></h6>
+         
+          <h6>Libra: <span>Sept 23 to Oct 22</span></h6>
+          
+          <h6>Scorpio: <span>Oct 22 to Nov 21</span></h6>
+         
+          <h6>Sagittarius: <span>Nov 22 to Dec 21</span></h6>
+         
+          <h6>Capricorn: <span>Dec 22 to Jan 19</span></h6>
+          
+        </div>
+      </div>
+
+      <!-- Part2 - JavaScript Input From User -->
+
+      <div class="row part2 text-center">
+        <div class="col-md-6">
+          <img id="signimg" src="" alt="">
+        </div>
+        <div class="col-md-6">
+          <h4 id="sign"></h4>
+          <p id="signinfo"></p>
+        </div>
+      </div>
+    </div>
+
+
+    
+   <!-- Custom script -->
+   <script type="text/javascript" src="js/main.js"></script>
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
